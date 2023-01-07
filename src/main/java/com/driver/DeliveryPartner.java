@@ -21,4 +21,8 @@ public class DeliveryPartner {
     public void setNumberOfOrders(Integer numberOfOrders) {
         this.numberOfOrders = numberOfOrders;
     }
+
+    public void increaseOrders(){ this.numberOfOrders+=1;}
+
+    public void decreaseOrders(){ this.numberOfOrders-=1;}
 }
