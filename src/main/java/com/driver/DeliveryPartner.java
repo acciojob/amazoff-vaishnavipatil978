@@ -22,7 +22,4 @@ public class DeliveryPartner {
         this.numberOfOrders = numberOfOrders;
     }
 
-    public void increaseOrders(){ this.numberOfOrders+=1;}
-
-    public void decreaseOrders(){ this.numberOfOrders-=1;}
 }

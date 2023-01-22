@@ -8,7 +8,7 @@ public class Order {
     public Order(String id, String deliveryTime) {
 
         this.id = id;
-        this.deliveryTime = (Integer.parseInt(deliveryTime.substring(0,2))*60)+Integer.parseInt(deliveryTime.substring(3,5));
+        this.deliveryTime =Integer.valueOf(deliveryTime.substring(3))+Integer.valueOf(deliveryTime.substring(0,2))*60;
         // The deliveryTime has to converted from string to int and then stored in the attribute
         //deliveryTime  = HH*60 + MM
     }
